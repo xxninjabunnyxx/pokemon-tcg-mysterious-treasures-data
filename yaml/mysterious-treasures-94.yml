@@ -1,0 +1,97 @@
+---
+id: dp2-94
+name: Pikachu
+supertype: Pokémon
+subtypes:
+- Basic
+level: '15'
+hp: '60'
+types:
+- Lightning
+evolvesTo:
+- Raichu
+abilities:
+- name: Electro Recycle
+  text: Once during your turn (before your attack), if Pichu is anywhere under Pikachu,
+    you may search your discard pile for a Lightning Energy card, show it to your
+    opponent, and put it into your hand. This power can't be used if Pikachu is affected
+    by a Special Condition.
+  type: Poké-Power
+attacks:
+- name: BikaBika
+  cost:
+  - Lightning
+  - Colorless
+  convertedEnergyCost: 2
+  damage: 20+
+  text: Flip a coin. If heads, this attack does 20 damage plus 10 more damage.
+weaknesses:
+- type: Fighting
+  value: "+10"
+resistances:
+- type: Metal
+  value: "-20"
+retreatCost:
+- Colorless
+convertedRetreatCost: 1
+set:
+  id: dp2
+  name: Mysterious Treasures
+  series: Diamond & Pearl
+  printedTotal: 123
+  total: 124
+  legalities:
+    unlimited: Legal
+  ptcgoCode: MT
+  releaseDate: 2007/08/01
+  updatedAt: 2018/03/04 10:35:00
+  images:
+    symbol: https://images.pokemontcg.io/dp2/symbol.png
+    logo: https://images.pokemontcg.io/dp2/logo.png
+number: '94'
+artist: Sumiyoshi Kizuki
+rarity: Common
+flavorText: It lives in forests with others. It stores electricity in the pouches
+  on its cheeks.
+nationalPokedexNumbers:
+- 25
+legalities:
+  unlimited: Legal
+images:
+  small: https://images.pokemontcg.io/dp2/94.png
+  large: https://images.pokemontcg.io/dp2/94_hires.png
+tcgplayer:
+  url: https://prices.pokemontcg.io/tcgplayer/dp2-94
+  updatedAt: 2023/09/11
+  prices:
+    normal:
+      low: 0.85
+      mid: 2.04
+      high: 6.66
+      market: 2.47
+      directLow: 0.79
+    reverseHolofoil:
+      low: 5.75
+      mid: 8.79
+      high: 24.35
+      market: 21.62
+      directLow: 
+cardmarket:
+  url: https://prices.pokemontcg.io/cardmarket/dp2-94
+  updatedAt: 2023/09/11
+  prices:
+    averageSellPrice: 6.15
+    lowPrice: 0.42
+    trendPrice: 8.15
+    germanProLow: 0.0
+    suggestedPrice: 0.0
+    reverseHoloSell: 14.19
+    reverseHoloLow: 2.0
+    reverseHoloTrend: 9.7
+    lowPriceExPlus: 0.8
+    avg1: 2.15
+    avg7: 10.05
+    avg30: 3.16
+    reverseHoloAvg1: 0.99
+    reverseHoloAvg7: 11.43
+    reverseHoloAvg30: 10.5

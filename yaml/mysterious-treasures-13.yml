@@ -1,0 +1,99 @@
+---
+id: dp2-13
+name: Meganium
+supertype: Pokémon
+subtypes:
+- Stage 2
+level: '48'
+hp: '130'
+types:
+- Grass
+evolvesFrom: Bayleef
+attacks:
+- name: Ultra Powder
+  cost:
+  - Grass
+  convertedEnergyCost: 1
+  damage: '20'
+  text: Flip 3 coins. If the first coin is heads, the Defending Pokémon is now Poisoned.
+    If the second coin is heads, the Defending Pokémon is now Burned. If the third
+    coin is heads, the Defending Pokémon is now Paralyzed.
+- name: Fire Counterattack
+  cost:
+  - Grass
+  - Grass
+  - Colorless
+  convertedEnergyCost: 3
+  damage: 60+
+  text: If your opponent has any Fire Pokémon in play, this attack does 60 damage
+    plus 30 more damage.
+weaknesses:
+- type: Fire
+  value: "+30"
+resistances:
+- type: Water
+  value: "-20"
+retreatCost:
+- Colorless
+- Colorless
+convertedRetreatCost: 2
+set:
+  id: dp2
+  name: Mysterious Treasures
+  series: Diamond & Pearl
+  printedTotal: 123
+  total: 124
+  legalities:
+    unlimited: Legal
+  ptcgoCode: MT
+  releaseDate: 2007/08/01
+  updatedAt: 2018/03/04 10:35:00
+  images:
+    symbol: https://images.pokemontcg.io/dp2/symbol.png
+    logo: https://images.pokemontcg.io/dp2/logo.png
+number: '13'
+artist: Daisuke Ito
+rarity: Rare Holo
+flavorText: Its breath has the fantastic ability to revive dead plants and flowers.
+nationalPokedexNumbers:
+- 154
+legalities:
+  unlimited: Legal
+images:
+  small: https://images.pokemontcg.io/dp2/13.png
+  large: https://images.pokemontcg.io/dp2/13_hires.png
+tcgplayer:
+  url: https://prices.pokemontcg.io/tcgplayer/dp2-13
+  updatedAt: 2023/09/11
+  prices:
+    holofoil:
+      low: 3.49
+      mid: 6.39
+      high: 14.0
+      market: 13.81
+      directLow: 
+    reverseHolofoil:
+      low: 2.44
+      mid: 3.89
+      high: 10.75
+      market: 2.44
+      directLow: 
+cardmarket:
+  url: https://prices.pokemontcg.io/cardmarket/dp2-13
+  updatedAt: 2023/09/11
+  prices:
+    averageSellPrice: 7.48
+    lowPrice: 0.1
+    trendPrice: 8.27
+    germanProLow: 0.0
+    suggestedPrice: 0.0
+    reverseHoloSell: 8.67
+    reverseHoloLow: 0.29
+    reverseHoloTrend: 3.54
+    lowPriceExPlus: 2.0
+    avg1: 4.95
+    avg7: 8.05
+    avg30: 4.09
+    reverseHoloAvg1: 10.75
+    reverseHoloAvg7: 4.6
+    reverseHoloAvg30: 4.48
